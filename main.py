@@ -1,6 +1,6 @@
 import pandas
 monthly_earnings_goal = int(input("What is your monthly earnings goal? \n"))
-vehicle_price = 500000
+vehicle_price = int(input("What's the average price of the vehicles you intend to buy? \n"))
 initial_savings = int(input("How much of your savings will go into this? \n"))
 earnings_per_vehicle = int(input("How much will you expect monthly per vehicle \n"))
 number_of_vehicles = 0
